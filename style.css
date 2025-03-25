@@ -1,0 +1,8 @@
+body{background-color:black}
+a{
+    color:rgb(0, 0, 0);text-size-adjust:bold;text-align: center ;background-color: rgb(85, 7, 7);height:20px;width:20px;
+}
+img{
+    opacity:0.3;width: 100%;
+    height: 100%;
+} 
