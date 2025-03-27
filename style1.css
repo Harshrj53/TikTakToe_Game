@@ -1,9 +1,15 @@
-h1{color:blanchedalmond
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
 }
-body{
+.h1{color:blanchedalmond
+}
+.body{
     background-color: gray;
 }
-div1{
+.div1{
     width: 300px;
     border: 10px solid black ;
     padding: 50px;
@@ -11,6 +17,87 @@ div1{
 
 
 }
-h1{ 
+.h1{ 
     text-align: center;;
+}
+
+.head{
+    background-color: bisque;
+    height: 60px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.gamegrid{
+    background-color: rgb(33, 3, 3);
+    width:auto;
+    height: 715px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+
+}
+.footer{
+
+    display: flex;
+    color:black;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    background-color: wheat;
+    align-items: center;
+    gap:5px;
+}
+.grid{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    cursor: pointer;
+    
+
+
+}
+.box{
+    font-size: 7vw;
+    display:flex;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 10px;
+    border:2px solid black;
+
+
+}
+
+.box:hover{
+    background-color: aliceblue;
+}
+.info{
+    background-color: wheat;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 20px auto;
+}
+.Reset{
+    background-color: wheat;
+    font-size: 2vw;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px 15px;
+    
+
+}
+.Reset:hover{
+    background-color: saddlebrown;
 }
